@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
-class AppSvgPicture extends StatelessWidget {
+class AppPngPicture extends StatelessWidget {
   final String assetPath;
   final double? width;
   final double? height;
   final BoxFit? boxFit;
   final Color? color;
 
-  const AppSvgPicture({
+  const AppPngPicture({
     super.key,
     required this.assetPath,
     this.width,
@@ -19,14 +18,12 @@ class AppSvgPicture extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SvgPicture.asset(
+    return Image.asset(
       assetPath,
       width: width,
       height: height,
       fit: boxFit ?? BoxFit.contain,
-      colorFilter: color != null
-          ? ColorFilter.mode(color!, BlendMode.srcIn)
-          : null,
+      color: color,
     );
   }
 }

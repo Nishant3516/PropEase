@@ -13,4 +13,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get hello => 'Hello';
+
+  @override
+  String get getStarted => 'Get Started';
 }

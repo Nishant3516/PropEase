@@ -101,14 +101,20 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'Mi Aplicación Flutter'**
+  /// **'My Flutter App'**
   String get appTitle;
 
   /// No description provided for @hello.
   ///
   /// In en, this message translates to:
-  /// **'Hola'**
+  /// **'Hello'**
   String get hello;
+
+  /// No description provided for @getStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Started'**
+  String get getStarted;
 }
 
 class _AppLocalizationsDelegate

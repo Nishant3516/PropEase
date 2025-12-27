@@ -1,4 +1,5 @@
 {
-    "appTitle": "Mi Aplicación Flutter",
-    "hello": "Hola"
+    "appTitle": "My Flutter App",
+    "hello": "Hello",
+    "getStarted": "Get Started"
 }
