@@ -9,8 +9,11 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'Mi Aplicación Flutter';
+  String get appTitle => 'My Flutter App';
 
   @override
-  String get hello => 'Hola';
+  String get hello => 'Hello';
+
+  @override
+  String get getStarted => 'Get Started';
 }
