@@ -11,11 +11,28 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsIconsGen {
+  const $AssetsIconsGen();
+
+  /// File path: assets/icons/back_arrow_ic.svg
+  String get backArrowIc => 'assets/icons/back_arrow_ic.svg';
+
+  /// File path: assets/icons/next_arrow_ic.svg
+  String get nextArrowIc => 'assets/icons/next_arrow_ic.svg';
+
+  /// List of all assets
+  List<String> get values => [backArrowIc, nextArrowIc];
+}
+
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
   /// File path: assets/images/logo_with_name.svg
   String get logoWithName => 'assets/images/logo_with_name.svg';
+
+  /// Directory path: assets/images/onboarding
+  $AssetsImagesOnboardingGen get onboarding =>
+      const $AssetsImagesOnboardingGen();
 
   /// File path: assets/images/splash.png
   AssetGenImage get splash => const AssetGenImage('assets/images/splash.png');
@@ -37,9 +54,26 @@ class $AssetsL10nGen {
   List<String> get values => [appEn, appHi];
 }
 
+class $AssetsImagesOnboardingGen {
+  const $AssetsImagesOnboardingGen();
+
+  /// File path: assets/images/onboarding/onboarding_1.svg
+  String get onboarding1 => 'assets/images/onboarding/onboarding_1.svg';
+
+  /// File path: assets/images/onboarding/onboarding_2.svg
+  String get onboarding2 => 'assets/images/onboarding/onboarding_2.svg';
+
+  /// File path: assets/images/onboarding/onboarding_3.svg
+  String get onboarding3 => 'assets/images/onboarding/onboarding_3.svg';
+
+  /// List of all assets
+  List<String> get values => [onboarding1, onboarding2, onboarding3];
+}
+
 class Assets {
   const Assets._();
 
+  static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsL10nGen l10n = $AssetsL10nGen();
 }

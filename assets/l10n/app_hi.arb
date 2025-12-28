@@ -1,5 +1,13 @@
 {
     "appTitle": "My Flutter App",
     "hello": "Hello",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "skip": "Skip",
+    "onboardingCompleted": "Onboarding Completed!",
+    "onboardingTitle1": "Find Your Perfect Home",
+    "onboardingDescription1": "Browse thousands of verified properties tailored to your lifestyle, budget, and preferred location.",
+    "onboardingTitle2": "Smart Search & Filters",
+    "onboardingDescription2": "Use advanced filters, maps, and personalized recommendations to quickly find homes that match your needs.",
+    "onboardingTitle3": "Connect & Close Faster",
+    "onboardingDescription3": "Chat with agents, schedule visits, and manage your property journey seamlessly from start to finish."
 }

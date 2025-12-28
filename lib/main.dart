@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/di/service_locator.dart';
 import 'package:propease/core/l10n/app_locatization.dart';
 import 'package:propease/core/routes/app_router.dart';
 import 'package:propease/core/theme/theme.dart';
 
 void main(List<String> args) {
+  ServiceLocator().setupDI();
   runApp(PropeaseApp());
 }
 

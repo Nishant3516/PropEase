@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:propease/core/constants/app_gaps.dart';
+import 'package:go_router/go_router.dart';
+import 'package:propease/core/widgets/app_gaps.dart';
 import 'package:propease/core/constants/app_spacing.dart';
+import 'package:propease/core/routes/router_utils.dart';
 import 'package:propease/core/widgets/app_button.dart';
 import 'package:propease/core/widgets/app_png_picture.dart';
 import 'package:propease/core/widgets/app_svg_picture.dart';
@@ -29,7 +31,12 @@ class SplashPage extends StatelessWidget {
               children: [
                 AppSvgPicture(assetPath: Assets.images.logoWithName),
                 AppGaps.h16,
-                AppButton(onPressed: () {}, label: context.l10n.getStarted),
+                AppButton(
+                  onPressed: () {
+                    context.push(AppPages.onboarding.path);
+                  },
+                  label: context.l10n.getStarted,
+                ),
               ],
             ),
           ],

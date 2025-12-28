@@ -115,6 +115,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Get Started'**
   String get getStarted;
+
+  /// No description provided for @skip.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip'**
+  String get skip;
+
+  /// No description provided for @onboardingCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Onboarding Completed!'**
+  String get onboardingCompleted;
+
+  /// No description provided for @onboardingTitle1.
+  ///
+  /// In en, this message translates to:
+  /// **'Find Your Perfect Home'**
+  String get onboardingTitle1;
+
+  /// No description provided for @onboardingDescription1.
+  ///
+  /// In en, this message translates to:
+  /// **'Browse thousands of verified properties tailored to your lifestyle, budget, and preferred location.'**
+  String get onboardingDescription1;
+
+  /// No description provided for @onboardingTitle2.
+  ///
+  /// In en, this message translates to:
+  /// **'Smart Search & Filters'**
+  String get onboardingTitle2;
+
+  /// No description provided for @onboardingDescription2.
+  ///
+  /// In en, this message translates to:
+  /// **'Use advanced filters, maps, and personalized recommendations to quickly find homes that match your needs.'**
+  String get onboardingDescription2;
+
+  /// No description provided for @onboardingTitle3.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect & Close Faster'**
+  String get onboardingTitle3;
+
+  /// No description provided for @onboardingDescription3.
+  ///
+  /// In en, this message translates to:
+  /// **'Chat with agents, schedule visits, and manage your property journey seamlessly from start to finish.'**
+  String get onboardingDescription3;
 }
 
 class _AppLocalizationsDelegate
