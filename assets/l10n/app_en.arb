@@ -20,5 +20,8 @@
     "confirmPassword": "Confirm Password",
     "orContinueWith": "Or continue with",
     "signUp": "Sign Up",
-    "name": "Name"
+    "name": "Name",
+    "alreadyHaveAnAccont": "Already have an account? ",
+    "dontHaveAnAccount": "Don't have an account? ",
+    "createAccount": "Create account"
 }

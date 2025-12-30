@@ -77,4 +77,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get name => 'Name';
+
+  @override
+  String get alreadyHaveAnAccont => 'Already have an account? ';
+
+  @override
+  String get dontHaveAnAccount => 'Don\'t have an account? ';
+
+  @override
+  String get createAccount => 'Create account';
 }

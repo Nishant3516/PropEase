@@ -81,6 +81,10 @@ class _OnboardingPageState extends State<OnboardingPage> {
     );
   }
 
+  void _goToLoginPage() {
+    context.push(AppPages.login.path);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,7 +92,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
       body: BlocConsumer<OnboardingPageBloc, OnboardingPageState>(
         listener: (context, state) {
           if (state is OnboardingCompleted) {
-            context.push(AppPages.login.path);
+            _goToLoginPage();
           }
         },
         builder: (context, state) {
@@ -110,7 +114,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       alignment: Alignment.topRight,
                       child: AppTextButton(
                         text: context.l10n.skip,
-                        onPressed: () {},
+                        onPressed: () => _goToLoginPage(),
                       ),
                     ),
                     SizedBox(

@@ -1,6 +1,8 @@
 import 'package:go_router/go_router.dart';
 import 'package:propease/core/routes/router_utils.dart';
+import 'package:propease/features/auth/presentation/pages/complete_profile_page.dart';
 import 'package:propease/features/auth/presentation/pages/login_page.dart';
+import 'package:propease/features/auth/presentation/pages/signup_page.dart';
 import 'package:propease/features/onboarding/presentation/pages/onboarding_page.dart';
 import 'package:propease/features/splash/presentation/pages/splash.dart';
 
@@ -23,6 +25,11 @@ final List<RouteBase> routes = [
   GoRoute(
     path: AppPages.signup.path,
     name: AppPages.signup.name,
-    builder: (context, state) => OnboardingPageProvider(),
+    builder: (context, state) => SignupPage(),
+  ),
+  GoRoute(
+    path: AppPages.completeProfile.path,
+    name: AppPages.completeProfile.name,
+    builder: (context, state) => CompleteProfilePage(),
   ),
 ];

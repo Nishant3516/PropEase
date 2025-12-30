@@ -4,7 +4,8 @@ enum AppPages {
   home(path: '/', name: 'home'),
   profile(path: '/profile', name: 'profile'),
   login(path: '/login', name: 'login'),
-  signup(path: '/signup', name: 'signup');
+  signup(path: '/signup', name: 'signup'),
+  completeProfile(path: '/completeProfile', name: 'completeProfile');
 
   final String path;
   final String name;
