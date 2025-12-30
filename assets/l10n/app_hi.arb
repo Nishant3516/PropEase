@@ -9,5 +9,16 @@
     "onboardingTitle2": "Smart Search & Filters",
     "onboardingDescription2": "Use advanced filters, maps, and personalized recommendations to quickly find homes that match your needs.",
     "onboardingTitle3": "Connect & Close Faster",
-    "onboardingDescription3": "Chat with agents, schedule visits, and manage your property journey seamlessly from start to finish."
+    "onboardingDescription3": "Chat with agents, schedule visits, and manage your property journey seamlessly from start to finish.",
+    "completeYourProfile": "Complete Your Profile",
+    "dontWorryText": "Don't worry, only you ca see your personal data. No one else will be able to see it.",
+    "age": "Age",
+    "completeProfile": "Complete Profile",
+    "signIn": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "orContinueWith": "Or continue with",
+    "signUp": "Sign Up",
+    "name": "Name"
 }

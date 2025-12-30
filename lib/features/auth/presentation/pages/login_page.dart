@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
+import 'package:propease/core/widgets/app_button.dart';
 import 'package:propease/core/widgets/app_svg_picture.dart';
 import 'package:propease/core/widgets/app_text_field.dart';
+import 'package:propease/core/widgets/divider_with_text_widget.dart';
+import 'package:propease/features/auth/presentation/widgets/social_media_action_buttons_widget.dart';
 import 'package:propease/gen/assets.gen.dart';
 
 class LoginPage extends StatelessWidget {
@@ -13,9 +17,12 @@ class LoginPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           AppSvgPicture(assetPath: Assets.images.logoWithName),
-          Text('Sign In'),
-          AppTextField(fieldName: 'Username'),
-          AppTextField(fieldName: 'Password'),
+          Text(context.l10n.signIn),
+          AppTextField(fieldName: context.l10n.email),
+          AppTextField(fieldName: context.l10n.password),
+          AppButton(label: context.l10n.signIn, onPressed: () {}),
+          DividerWithText(text: context.l10n.orContinueWith),
+          SocialMediaActionButtonsWidget(),
         ],
       ),
     );
