@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import 'package:propease/core/constants/app_spacing.dart';
+import 'package:propease/core/routes/router_utils.dart';
 import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/core/widgets/app_gaps.dart';
 import 'package:propease/core/widgets/app_icon.dart';
@@ -79,11 +81,20 @@ class _OnboardingPageState extends State<OnboardingPage> {
     );
   }
 
+  void _goToLoginPage() {
+    context.push(AppPages.login.path);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(automaticallyImplyLeading: false),
-      body: BlocBuilder<OnboardingPageBloc, OnboardingPageState>(
+      body: BlocConsumer<OnboardingPageBloc, OnboardingPageState>(
+        listener: (context, state) {
+          if (state is OnboardingCompleted) {
+            _goToLoginPage();
+          }
+        },
         builder: (context, state) {
           switch (state) {
             case OnboardingCompleted():
@@ -103,7 +114,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       alignment: Alignment.topRight,
                       child: AppTextButton(
                         text: context.l10n.skip,
-                        onPressed: () {},
+                        onPressed: () => _goToLoginPage(),
                       ),
                     ),
                     SizedBox(
