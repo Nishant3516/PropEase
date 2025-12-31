@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:propease/core/widgets/app_svg_picture.dart';
+import 'package:propease/core/widgets/app_image.dart';
 
 class SocialMediaActionIcon extends StatelessWidget {
   final String assetPath;
@@ -7,6 +7,6 @@ class SocialMediaActionIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppSvgPicture(assetPath: assetPath);
+    return AppImage(assetPath: assetPath);
   }
 }

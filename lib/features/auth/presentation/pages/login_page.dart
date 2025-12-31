@@ -5,7 +5,7 @@ import 'package:propease/core/routes/router_utils.dart';
 import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/core/widgets/app_button.dart';
 import 'package:propease/core/widgets/app_gaps.dart';
-import 'package:propease/core/widgets/app_svg_picture.dart';
+import 'package:propease/core/widgets/app_image.dart';
 import 'package:propease/core/widgets/app_text_field.dart';
 import 'package:propease/core/widgets/divider_with_text_widget.dart';
 import 'package:propease/features/auth/presentation/widgets/create_account_text.dart';
@@ -23,7 +23,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            AppSvgPicture(assetPath: Assets.images.logoWithName),
+            AppImage(assetPath: Assets.images.logoWithName),
             Text(context.l10n.signIn),
             AppTextField(
               fieldName: context.l10n.email,

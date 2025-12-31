@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:propease/core/constants/app_spacing.dart';
 import 'package:propease/core/widgets/app_gaps.dart';
-import 'package:propease/core/widgets/app_svg_picture.dart';
+import 'package:propease/core/widgets/app_image.dart';
 
 class OnboardingImageWidgetProps {
   final String imagePath;
@@ -26,7 +26,7 @@ class OnboardingImageWidget extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          AppSvgPicture(assetPath: props.imagePath),
+          AppImage(assetPath: props.imagePath),
           Text(props.heading, textAlign: TextAlign.center),
           AppGaps.h8,
           Text(props.description, textAlign: TextAlign.center),
