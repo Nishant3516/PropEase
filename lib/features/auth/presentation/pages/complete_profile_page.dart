@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:propease/core/constants/app_spacing.dart';
+import 'package:propease/core/routes/router_utils.dart';
 import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/core/widgets/app_button.dart';
 import 'package:propease/core/widgets/app_gaps.dart';
@@ -28,7 +30,12 @@ class CompleteProfilePage extends StatelessWidget {
             AppGaps.h16,
             AppTextField(fieldName: context.l10n.age),
             AppGaps.h8,
-            AppButton(label: context.l10n.completeProfile, onPressed: () {}),
+            AppButton(
+              label: context.l10n.completeProfile,
+              onPressed: () {
+                context.pushReplacement(AppPages.home.path);
+              },
+            ),
           ],
         ),
       ),
