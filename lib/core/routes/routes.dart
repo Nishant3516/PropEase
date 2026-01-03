@@ -4,7 +4,7 @@ import 'package:propease/core/widgets/main_scaffold.dart';
 import 'package:propease/features/auth/presentation/pages/complete_profile_page.dart';
 import 'package:propease/features/auth/presentation/pages/login_page.dart';
 import 'package:propease/features/auth/presentation/pages/signup_page.dart';
-import 'package:propease/features/home_page.dart';
+import 'package:propease/features/home/presentation/pages/home_page.dart';
 import 'package:propease/features/onboarding/presentation/pages/onboarding_page.dart';
 import 'package:propease/features/splash/presentation/pages/splash.dart';
 
