@@ -5,7 +5,8 @@ enum AppPages {
   profile(path: '/profile', name: 'profile'),
   login(path: '/login', name: 'login'),
   signup(path: '/signup', name: 'signup'),
-  completeProfile(path: '/completeProfile', name: 'completeProfile');
+  completeProfile(path: '/completeProfile', name: 'completeProfile'),
+  propertyDetail(path: '/propertyDetail', name: 'propertyDetail');
 
   final String path;
   final String name;
