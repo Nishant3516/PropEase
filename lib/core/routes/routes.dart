@@ -6,6 +6,7 @@ import 'package:propease/features/auth/presentation/pages/login_page.dart';
 import 'package:propease/features/auth/presentation/pages/signup_page.dart';
 import 'package:propease/features/home/presentation/pages/home_page.dart';
 import 'package:propease/features/onboarding/presentation/pages/onboarding_page.dart';
+import 'package:propease/features/property_detail/presentation/pages/property_detail_page.dart';
 import 'package:propease/features/splash/presentation/pages/splash.dart';
 
 final List<RouteBase> routes = [
@@ -60,5 +61,10 @@ final List<RouteBase> routes = [
       //   pageBuilder: (context, state) => NoTransitionPage(child: HomePage()),
       // ),
     ],
+  ),
+  GoRoute(
+    path: AppPages.propertyDetail.path,
+    name: AppPages.propertyDetail.name,
+    builder: (context, state) => PropertyDetailPage(),
   ),
 ];
