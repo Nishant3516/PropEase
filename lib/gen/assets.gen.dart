@@ -17,11 +17,42 @@ class $AssetsIconsGen {
   /// File path: assets/icons/back_arrow_ic.svg
   String get backArrowIc => 'assets/icons/back_arrow_ic.svg';
 
+  /// File path: assets/icons/bookmark.svg
+  String get bookmark => 'assets/icons/bookmark.svg';
+
+  /// File path: assets/icons/bookmark_ic.svg
+  String get bookmarkIc => 'assets/icons/bookmark_ic.svg';
+
+  /// File path: assets/icons/filter.svg
+  String get filter => 'assets/icons/filter.svg';
+
+  /// File path: assets/icons/home_ic.svg
+  String get homeIc => 'assets/icons/home_ic.svg';
+
+  /// File path: assets/icons/location_pin_ic.svg
+  String get locationPinIc => 'assets/icons/location_pin_ic.svg';
+
   /// File path: assets/icons/next_arrow_ic.svg
   String get nextArrowIc => 'assets/icons/next_arrow_ic.svg';
 
+  /// File path: assets/icons/profile_ic.svg
+  String get profileIc => 'assets/icons/profile_ic.svg';
+
+  /// File path: assets/icons/search.svg
+  String get search => 'assets/icons/search.svg';
+
   /// List of all assets
-  List<String> get values => [backArrowIc, nextArrowIc];
+  List<String> get values => [
+    backArrowIc,
+    bookmark,
+    bookmarkIc,
+    filter,
+    homeIc,
+    locationPinIc,
+    nextArrowIc,
+    profileIc,
+    search,
+  ];
 }
 
 class $AssetsImagesGen {
@@ -34,11 +65,15 @@ class $AssetsImagesGen {
   $AssetsImagesOnboardingGen get onboarding =>
       const $AssetsImagesOnboardingGen();
 
+  /// File path: assets/images/property.png
+  AssetGenImage get property =>
+      const AssetGenImage('assets/images/property.png');
+
   /// File path: assets/images/splash.png
   AssetGenImage get splash => const AssetGenImage('assets/images/splash.png');
 
   /// List of all assets
-  List<dynamic> get values => [logoWithName, splash];
+  List<dynamic> get values => [logoWithName, property, splash];
 }
 
 class $AssetsL10nGen {

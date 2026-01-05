@@ -19,19 +19,19 @@ class BottomNavigationWidget extends StatelessWidget {
       onTap: (index) => onItemTapped(context, index),
       items: [
         BottomNavigationBarItem(
-          icon: AppImage(assetPath: Assets.icons.backArrowIc),
+          icon: AppImage(assetPath: Assets.icons.homeIc),
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: AppImage(assetPath: Assets.icons.backArrowIc),
-          label: 'Search',
+          icon: AppImage(assetPath: Assets.icons.locationPinIc),
+          label: 'Location',
         ),
         BottomNavigationBarItem(
-          icon: AppImage(assetPath: Assets.icons.backArrowIc),
+          icon: AppImage(assetPath: Assets.icons.bookmarkIc),
           label: 'Bookmark',
         ),
         BottomNavigationBarItem(
-          icon: AppImage(assetPath: Assets.icons.backArrowIc),
+          icon: AppImage(assetPath: Assets.icons.profileIc),
           label: 'Profile',
         ),
       ],
