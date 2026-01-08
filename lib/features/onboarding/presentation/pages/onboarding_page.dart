@@ -7,7 +7,7 @@ import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/core/widgets/app_gaps.dart';
 import 'package:propease/core/widgets/app_icon.dart';
 import 'package:propease/core/widgets/app_text_button.dart';
-import 'package:propease/features/onboarding/presentation/onboarding_page/onboarding_page_bloc.dart';
+import 'package:propease/features/onboarding/presentation/bloc/onboarding_page_bloc.dart';
 import 'package:propease/features/onboarding/presentation/widgets/onboarding_image_widget.dart';
 import 'package:propease/gen/assets.gen.dart';
 

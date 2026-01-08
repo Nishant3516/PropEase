@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/features/property_detail/presentation/widgets/property_review_item.dart';
 
 class PropertyDetailReviewTab extends StatelessWidget {
@@ -11,8 +12,8 @@ class PropertyDetailReviewTab extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'Review',
+          Text(
+            context.l10n.review,
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 16),

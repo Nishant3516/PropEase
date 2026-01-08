@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
 
 class PropertyListingAgentWidget extends StatelessWidget {
   const PropertyListingAgentWidget({super.key});
@@ -8,8 +9,8 @@ class PropertyListingAgentWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
-          'Listing Agent',
+        Text(
+          context.l10n.listingAgent,
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 12),

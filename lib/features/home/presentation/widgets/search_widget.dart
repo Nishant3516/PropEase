@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/core/widgets/app_gaps.dart';
 import 'package:propease/core/widgets/app_text_field.dart';
 import 'package:propease/features/home/presentation/widgets/filter_widget.dart';
@@ -17,7 +18,7 @@ class SearchWidget extends StatelessWidget {
         Expanded(
           child: AppTextField(
             prefixIcon: Assets.icons.search,
-            fieldName: 'Search by Address, City, or Zip',
+            fieldName: context.l10n.searchByAddressCityZip,
           ),
         ),
         AppGaps.w4,

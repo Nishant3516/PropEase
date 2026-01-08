@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:propease/core/constants/app_spacing.dart';
+import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/core/widgets/app_icon.dart';
 import 'package:propease/core/widgets/app_image.dart';
 import 'package:propease/gen/assets.gen.dart';
@@ -28,7 +29,7 @@ class PropertyCard extends StatelessWidget {
                   Row(
                     children: [
                       AppIcon(iconPath: Assets.icons.backArrowIc),
-                      Text("address"),
+                      Text(context.l10n.address),
                     ],
                   ),
                 ],

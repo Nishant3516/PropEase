@@ -247,6 +247,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Create account'**
   String get createAccount;
+
+  /// No description provided for @nearYou.
+  ///
+  /// In en, this message translates to:
+  /// **'Near you'**
+  String get nearYou;
+
+  /// No description provided for @more.
+  ///
+  /// In en, this message translates to:
+  /// **'more'**
+  String get more;
+
+  /// No description provided for @letsFindYour.
+  ///
+  /// In en, this message translates to:
+  /// **'Let\'s find your '**
+  String get letsFindYour;
+
+  /// No description provided for @favoriteHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Favourite Home'**
+  String get favoriteHome;
+
+  /// No description provided for @address.
+  ///
+  /// In en, this message translates to:
+  /// **'address'**
+  String get address;
+
+  /// No description provided for @searchByAddressCityZip.
+  ///
+  /// In en, this message translates to:
+  /// **'Search by Address, City, or Zip'**
+  String get searchByAddressCityZip;
+
+  /// No description provided for @totalPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Price'**
+  String get totalPrice;
+
+  /// No description provided for @bookNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Book Now'**
+  String get bookNow;
+
+  /// No description provided for @facilities.
+  ///
+  /// In en, this message translates to:
+  /// **'Facilities'**
+  String get facilities;
+
+  /// No description provided for @viewOnMap.
+  ///
+  /// In en, this message translates to:
+  /// **'View on Map'**
+  String get viewOnMap;
+
+  /// No description provided for @review.
+  ///
+  /// In en, this message translates to:
+  /// **'Review'**
+  String get review;
+
+  /// No description provided for @listingAgent.
+  ///
+  /// In en, this message translates to:
+  /// **'Listing Agent'**
+  String get listingAgent;
+
+  /// No description provided for @helpful.
+  ///
+  /// In en, this message translates to:
+  /// **'Helpful?'**
+  String get helpful;
 }
 
 class _AppLocalizationsDelegate

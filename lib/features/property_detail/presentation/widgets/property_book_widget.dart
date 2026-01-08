@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
 
 class PropertyBookWidget extends StatelessWidget {
   const PropertyBookWidget({super.key});
@@ -23,8 +24,8 @@ class PropertyBookWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Text(
-                'Total Price',
+              Text(
+                context.l10n.totalPrice,
                 style: TextStyle(color: Colors.grey, fontSize: 12),
               ),
               const SizedBox(height: 4),
@@ -58,8 +59,8 @@ class PropertyBookWidget extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
             ),
-            child: const Text(
-              'Book Now',
+            child: Text(
+              context.l10n.bookNow,
               style: TextStyle(fontSize: 16, color: Colors.white),
             ),
           ),
