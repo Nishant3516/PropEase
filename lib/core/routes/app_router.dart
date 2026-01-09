@@ -7,7 +7,8 @@ class AppRouter {
   //     ServiceLocator.getIt<GlobalKey<NavigatorState>>();
 
   static GoRouter get router => GoRouter(
-    initialLocation: AppPages.splash.path,
+    initialLocation: AppPages.propertyDetail.path,
+    // initialLocation: AppPages.splash.path,
     debugLogDiagnostics: true,
     // navigatorKey: rootNavigatorKey,
     routes: routes,

@@ -23,5 +23,18 @@
     "name": "Name",
     "alreadyHaveAnAccont": "Already have an account? ",
     "dontHaveAnAccount": "Don't have an account? ",
-    "createAccount": "Create account"
+    "createAccount": "Create account",
+    "nearYou": "Near you",
+    "more": "more",
+    "letsFindYour": "Let's find your ",
+    "favoriteHome": "Favourite Home",
+    "address": "address",
+    "searchByAddressCityZip": "Search by Address, City, or Zip",
+    "totalPrice": "Total Price",
+    "bookNow": "Book Now",
+    "facilities": "Facilities",
+    "viewOnMap": "View on Map",
+    "review": "Review",
+    "listingAgent": "Listing Agent",
+    "helpful": "Helpful?"
 }

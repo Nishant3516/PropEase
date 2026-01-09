@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/features/property_detail/presentation/widgets/review_thumbnail_widget.dart';
 
 class PropertyReviewItem extends StatelessWidget {
@@ -45,7 +46,7 @@ class PropertyReviewItem extends StatelessWidget {
             const SizedBox(width: 8),
             const Text('5.0', style: TextStyle(fontWeight: FontWeight.bold)),
             const Spacer(),
-            const Text('Helpful?', style: TextStyle(color: Colors.grey)),
+            Text(context.l10n.helpful, style: TextStyle(color: Colors.grey)),
             const SizedBox(width: 8),
             Row(
               children: [

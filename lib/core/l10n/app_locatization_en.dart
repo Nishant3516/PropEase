@@ -86,4 +86,43 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get createAccount => 'Create account';
+
+  @override
+  String get nearYou => 'Near you';
+
+  @override
+  String get more => 'more';
+
+  @override
+  String get letsFindYour => 'Let\'s find your ';
+
+  @override
+  String get favoriteHome => 'Favourite Home';
+
+  @override
+  String get address => 'address';
+
+  @override
+  String get searchByAddressCityZip => 'Search by Address, City, or Zip';
+
+  @override
+  String get totalPrice => 'Total Price';
+
+  @override
+  String get bookNow => 'Book Now';
+
+  @override
+  String get facilities => 'Facilities';
+
+  @override
+  String get viewOnMap => 'View on Map';
+
+  @override
+  String get review => 'Review';
+
+  @override
+  String get listingAgent => 'Listing Agent';
+
+  @override
+  String get helpful => 'Helpful?';
 }

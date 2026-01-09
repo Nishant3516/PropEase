@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/features/home/presentation/widgets/property_card.dart';
 
 class PropertiesNearYouWidget extends StatelessWidget {
@@ -10,7 +11,7 @@ class PropertiesNearYouWidget extends StatelessWidget {
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [Text('Near you'), Text('more')],
+          children: [Text(context.l10n.nearYou), Text(context.l10n.more)],
         ),
 
         Column(

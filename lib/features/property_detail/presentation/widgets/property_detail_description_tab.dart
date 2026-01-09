@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:propease/core/utils/extensions.dart';
 import 'package:propease/features/property_detail/presentation/widgets/property_facility_item_widget.dart';
 import 'package:propease/features/property_detail/presentation/widgets/property_listing_agent_widget.dart';
 import 'package:propease/features/property_detail/presentation/widgets/property_stat_item.dart';
@@ -28,8 +29,8 @@ class PropertyDetailDescriptionTab extends StatelessWidget {
           PropertyListingAgentWidget(),
           const SizedBox(height: 24),
           // Facilities
-          const Text(
-            'Facilities',
+          Text(
+            context.l10n.facilities,
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 16),
@@ -57,11 +58,11 @@ class PropertyDetailDescriptionTab extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Text(
-                'Address',
+              Text(
+                context.l10n.address,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
-              TextButton(onPressed: () {}, child: const Text('View on Map')),
+              TextButton(onPressed: () {}, child: Text(context.l10n.viewOnMap)),
             ],
           ),
           const SizedBox(height: 8),
